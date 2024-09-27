@@ -29,6 +29,7 @@ public class CubeScript : MonoBehaviour
             {
                 StartCoroutine(WaitForClick(seq));
             })
+            //.Append
             .Append(transform.DOMove(start,1f))
             .Play();
 

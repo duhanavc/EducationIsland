@@ -103,8 +103,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1.3582219, z: 1}
+  m_Center: {x: -0.00000005429364, y: 0.179111, z: -0.0000000018097881}
 --- !u!1 &2991114528099950917
 GameObject:
   m_ObjectHideFlags: 0
@@ -208,8 +208,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1.3195426, z: 1}
+  m_Center: {x: 0.000000048431275, y: 0.15977144, z: -0.0000000016143756}
 --- !u!1 &7537753872431175976
 GameObject:
   m_ObjectHideFlags: 0
@@ -240,7 +240,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
   m_LocalPosition: {x: 0, y: 2.5, z: 0}
-  m_LocalScale: {x: 2.9042916, y: 0.115522005, z: 2.9042916}
+  m_LocalScale: {x: 0.8204213, y: 1.444025, z: 0.8204213}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2505771180287958399}
@@ -324,7 +324,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 110
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!114 &1943976141859033022
 MonoBehaviour:
@@ -340,6 +340,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationSpeed: 500
   decelerationSpeed: 1
+  targetRotationAngle: 90
 --- !u!1 &8028648665091544034
 GameObject:
   m_ObjectHideFlags: 0
@@ -443,8 +444,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1.3442923, z: 1}
+  m_Center: {x: 8.797298e-15, y: -0.17214626, z: 0.0000000024599027}
 --- !u!1 &8774124651572883657
 GameObject:
   m_ObjectHideFlags: 0
@@ -548,5 +549,5 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1.1935179, z: 1}
+  m_Center: {x: 0, y: 0.09675894, z: 0}

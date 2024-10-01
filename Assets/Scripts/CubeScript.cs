@@ -22,7 +22,7 @@ public class CubeScript : MonoBehaviour
 
         var seq = DOTween.Sequence();
 
-        seq.Append(transform.DOMove(cubePos.position, 1f))
+        seq.Append(transform.DOMove(cubePos.position, 1f).SetEase(Ease.InOutQuart))
             .Append(DOVirtual.DelayedCall(1f, null))
             .Append(transform.DORotate(Vector3.up * 90f, 1f))
             .AppendCallback(() =>

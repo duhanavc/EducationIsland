@@ -265,6 +265,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7537753872431175976, guid: 5dffa796a6e7c7447936f00c5ba1002c, type: 3}
   m_PrefabInstance: {fileID: 1812987598}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1227568605 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1943976141859033022, guid: 5dffa796a6e7c7447936f00c5ba1002c, type: 3}
+  m_PrefabInstance: {fileID: 1812987598}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227568604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6da29f643472d9e4f9aa699fe7066d15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1293806536
 GameObject:
   m_ObjectHideFlags: 0
@@ -475,7 +486,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   wheelPointerRb: {fileID: 1293806538}
+  RotationSpeedBuffer: 0
   forceAmount: 2
+  rotObj: {fileID: 1227568605}
 --- !u!23 &1446108983
 MeshRenderer:
   m_ObjectHideFlags: 0

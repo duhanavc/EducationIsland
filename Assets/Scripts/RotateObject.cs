@@ -51,7 +51,7 @@ public class RotateObject : MonoBehaviour
 {
     public float rotationSpeed = 1000f;
     public float decelerationSpeed = 2f; // Dönüþün yavaþlama hýzý
-    private float currentRotationSpeedZ; // Þu anki Z eksenindeki dönüþ hýzý
+    public float currentRotationSpeedZ; // Þu anki Z eksenindeki dönüþ hýzý
     private bool isDragging = false; // Fare ile dönme iþlemi yapýlýyor mu?
 
     public float targetRotationAngle = 90f; // Çarkýn duracaðý hedef açý
@@ -59,6 +59,7 @@ public class RotateObject : MonoBehaviour
 
     void Update()
     {
+        Debug.Log(currentRotationSpeedZ);
         // Fare sol tuþuna basýldýðýnda objeyi döndür
         if (Input.GetMouseButton(0))
         {

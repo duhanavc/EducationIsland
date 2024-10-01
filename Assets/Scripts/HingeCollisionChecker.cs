@@ -21,24 +21,34 @@ public class HingeCollisionChecker : MonoBehaviour
 
     [SerializeField]
     private Rigidbody wheelPointerRb;
-    private Rigidbody wheelRb
+    private Rigidbody wheelRb;
 
+    [SerializeField]
+    private float RotationSpeedBuffer;
 
     [SerializeField]
     private float forceAmount;
 
+    [SerializeField]
+    RotateObject rotObj;
+
     private int ForceChecker = 1;
     void Start()
     {
-         Rigidbody wheelRb = theWheel.GetComponent<Rigidbody>();
+         wheelRb = theWheel.GetComponent<Rigidbody>();
     }
 
     
     void Update()
     {
 
-        if(wheelRb.)
-        
+        //Debug.Log(wheelRb.angularVelocity);
+
+        //if (mathf.abs(rotobj.currentrotationspeedz))
+        //{
+
+        //}
+
         if (Physics.Raycast(transform.position, rayDir, out hit, rayLength, hitLayer))
         {
           
